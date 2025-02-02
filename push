@@ -9,11 +9,11 @@ PROGRAM="./push_swap"
 checker="./checker_linux"
 TESTS_PASSED=0
 TESTS_FAILED=0
-VERBOSE=0  
-NUM_TESTS=100  
-ARRAY_SIZE=500 
+VERBOSE=0
+NUM_TESTS=100
+ARRAY_SIZE=500
 WORST_CASE=0
-TIMEOUT=5  # Timeout in seconds for each test case
+TIMEOUT=5 # Timeout in seconds for each test case
 
 show_help() {
     echo "Usage: $0 [options]"
@@ -41,19 +41,19 @@ run_test() {
     if [[ $status -eq 124 ]]; then
         echo -e "TIMEOUT    ${RED}Test timed out${RESET}"
         if [[ $VERBOSE -eq 1 ]]; then
-            echo "Input: $INPUT" >> tests.log
-            echo "Output: TIMEOUT" >> tests.log
+            echo "Input: $INPUT" >>tests.log
+            echo "Output: TIMEOUT" >>tests.log
         fi
         ((TESTS_FAILED++))
         return
     fi
 
     # Check if the command segfaulted
-    if [[ $status -eq 139 ]]; then
-        echo -e "SEGFAULT  ${RED}Segmentation fault${RESET}"
+    if [[ $status -eq 139]]; then
+        echo -e "SEGFAULT  ${RED}Oh SHIIT! Segmentation fault${RESET}"
         if [[ $VERBOSE -eq 1 ]]; then
-            echo "Input: $INPUT" >> tests.log
-            echo "Output: SEGFAULT" >> tests.log
+            echo "Input: $INPUT" >>tests.log
+            echo "Output: SEGFAULT" >>tests.logh
         fi
         ((TESTS_FAILED++))
         return
@@ -63,8 +63,8 @@ run_test() {
     if [[ $status -ne 0 ]]; then
         echo -e "FAILED     ${RED}Error running test (status: $status)${RESET}"
         if [[ $VERBOSE -eq 1 ]]; then
-            echo "Input: $INPUT" >> tests.log
-            echo "Output: Error (status: $status)" >> tests.log
+            echo "Input: $INPUT" >>tests.log
+            echo "Output: Error (status: $status)" >>tests.log
         fi
         ((TESTS_FAILED++))
         return
@@ -75,8 +75,8 @@ run_test() {
         if [[ $CHECK != "OK" ]]; then
             echo -e "FAILED     ${RED}$CHECK${RESET}"
             if [[ $VERBOSE -eq 1 ]]; then
-                echo "Input: $INPUT" >> tests.log
-                echo "Output: $CHECK" >> tests.log
+                echo "Input: $INPUT" >>tests.log
+                echo "Output: $CHECK" >>tests.log
             fi
             ((TESTS_FAILED++))
             return
@@ -87,14 +87,13 @@ run_test() {
         if [[ $CHECK != "OK" ]]; then
             echo -e "FAILED     ${RED}$CHECK${RESET}"
             if [[ $VERBOSE -eq 1 ]]; then
-                echo "Input: $INPUT" >> tests.log
-                echo "Output: $CHECK" >> tests.log
+                echo "Input: $INPUT" >>tests.log
+                echo "Output: $CHECK" >>tests.log
             fi
             ((TESTS_FAILED++))
             return
         fi
     fi
-
 
     # Process the output
     OUTPUT=$(echo "$OUT" | wc -l)
@@ -130,43 +129,43 @@ run_test() {
 
     # Logging for verbose mode
     if [[ $VERBOSE -eq 1 && $status -eq 0 ]]; then
-        echo "Input: $INPUT" >> tests.log
+        echo "Input: $INPUT" >>tests.log
         LOG=$(echo $OUT)
-        echo "Output: $LOG -> $OUTPUT" >> tests.log
+        echo "Output: $LOG -> $OUTPUT" >>tests.log
     fi
 }
 
 while getopts ":vht:s:" opt; do
     case $opt in
-        t)
-            if ! [[ $OPTARG =~ ^[0-9]+$ ]]; then
-                echo "Error: -t requires a numeric argument." >&2
-                exit 1
-            fi
-            NUM_TESTS=$OPTARG
-            ;;
-        s)
-            if [[ $OPTARG -eq 3 ||  $OPTARG -eq 5 || $OPTARG -eq 100 || $OPTARG -eq 500 ]]; then
-                ARRAY_SIZE=$OPTARG
-            else
-                echo "Error: -s requires a value of 3, 5, 100, or 500." >&2
-                exit 1
-            fi
-            ;;
-        v)
-            VERBOSE=1
-            ;;
-        h)
-            show_help
-            ;;
-        *)
-            echo "Invalid option: -$OPTARG" >&2
-            show_help
-            ;;
+    t)
+        if ! [[ $OPTARG =~ ^[0-9]+$ ]]; then
+            echo "Error: -t requires a numeric argument." >&2
+            exit 1
+        fi
+        NUM_TESTS=$OPTARG
+        ;;
+    s)
+        if [[ $OPTARG -eq 3 || $OPTARG -eq 5 || $OPTARG -eq 100 || $OPTARG -eq 500 ]]; then
+            ARRAY_SIZE=$OPTARG
+        else
+            echo "Error: -s requires a value of 3, 5, 100, or 500." >&2
+            exit 1
+        fi
+        ;;
+    v)
+        VERBOSE=1
+        ;;
+    h)
+        show_help
+        ;;
+    *)
+        echo "Invalid option: -$OPTARG" >&2
+        show_help
+        ;;
     esac
 done
 
-[[ $VERBOSE -eq 1 ]] && echo "Verbose mode enabled. Logging to 'tests.log'." && > tests.log
+[[ $VERBOSE -eq 1 ]] && echo "Verbose mode enabled. Logging to 'tests.log'." && >tests.log
 
 echo "Running $NUM_TESTS tests with array size $ARRAY_SIZE..."
 
@@ -186,3 +185,5 @@ if [[ $TESTS_FAILED -eq 0 ]]; then
 else
     echo -e "${RED}Some tests failed. Please review the output.${RESET}"
 fi
+
+#made by zakaria didah.
