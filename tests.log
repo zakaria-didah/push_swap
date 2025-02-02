@@ -1,0 +1,200 @@
+Input: -1445148603 -1496876002 -2130881534
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -428870913 520587497 1909890383
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: -1047615411 2101079711 -1967716965
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1537394713 -13078753 -788517556
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 952395219 -917143021 1603475089
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -599809689 -338527941 1196366559
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: 1764858638 586105933 -646546015
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 38549102 -1311465034 1508141005
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 191222918 -1528961346 1682290184
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1586307481 2065397566 2052134909
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1816770769 -2120532381 722603994
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 536224040 -176581343 388273515
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1615747375 -1172672419 -905922570
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 605072223 649138371 2072581296
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: -573082189 -1984510234 -389823742
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1272953569 1025919510 -270909768
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1955025531 -1788708341 -1982088045
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1567223853 -1436460678 1624848548
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1211226468 -277131515 -905406998
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1207810822 1141639551 105079067
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 638970535 2028192318 101036783
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1392913332 643258996 -159034926
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -2096272868 2132016739 782322614
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1146035494 -292467954 -1129884081
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -510911740 -1796679357 -731390389
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1360905139 1324449341 -942699360
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1677247497 7690619 1177376555
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: 1015624622 -1015677791 -1979696773
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1210621516 1934043444 -1843388666
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1914802892 2067006257 -1669819259
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -901612686 -1649153758 1716122475
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 966331152 671531701 568848458
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1664562557 337854600 -1905000766
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 737876757 -65214325 2084319023
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -2087190471 -2119423452 1290805964
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1871119198 -522526897 -1283003269
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1795949278 652179163 -403207918
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 731148009 -424255313 189242582
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -156996346 -57837367 1447463736
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: -447272239 -1529490889 -466756803
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 526053495 -1389884613 -1475565480
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1022882635 1664923076 57687337
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 219242571 1933909214 -330181196
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 63585970 -329789377 -1396308700
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1470862160 -680004314 717948667
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -120988881 2010995878 146300472
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1758073648 -1819898382 13357562
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1510290344 537879175 1199330506
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -893179697 -1096911562 1890991772
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 797097629 -232182981 1325446455
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1234643623 -1574045059 -836352849
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1313338020 -2037823880 -1011923914
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1278595809 1864148021 -673754467
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1642266242 956316316 -1189282019
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 5896971 919557423 -2110031054
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -405440784 263590344 -1776442733
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1387767794 -1339722257 1579011000
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: 1421953168 -301238838 1125458303
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 320898130 -864204853 -1839564916
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -923156225 -696696658 -1258367469
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 378537513 -643451065 -1185141219
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1128667443 -923528764 864021807
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1985028946 1377373930 -1852617513
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 80695599 -523448370 1219703577
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1694748131 -1710289489 339792406
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -206713592 -1342489520 2077356599
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 220678057 885593899 750321668
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1280406743 -2060414151 676079812
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1938293298 1648499748 -1883172829
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 123664050 1991068967 -203108628
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -302025457 -1834302299 568236707
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -889275201 -91762879 -256206767
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1513010095 970094736 678752564
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 2032407786 -1588418445 -1910705853
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1283917484 434693308 -1705384011
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1268680356 1981674371 -496293186
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 985627264 -178105217 -769892834
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1511038316 -389895825 -2147294594
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -94580530 611195079 561057161
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 541006291 -1205054597 1984269139
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1404376518 1552580976 -462899947
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1370012331 -1581108799 75776421
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1941108850 1832474931 179863790
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -436493954 -1266578932 1973290325
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 927692020 966956121 1475589804
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: -1622738792 -1014612708 -40643226
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
+Input: -42913668 2008749307 1233639020
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1806968337 190237946 63382840
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -509157800 823967971 -2041074524
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1192950179 -2032318662 582632576
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1868356893 -1889846981 -738118306
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -541800661 -651592164 -2067787163
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1021737503 -1373196354 -664739639
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1852384516 1333985648 523144064
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 585013315 -933490217 -1675638870
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1669918146 2104285400 1566605780
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 454043326 -1410574590 -1334416256
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -1532440817 521139916 -210633430
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: 1871943533 -5979556 -79639697
+Output: ./script.sh: line 86: ./checker_linux: No such file or directory
+Input: -891778377 454311192 955154819
+Output: ./script.sh: line 74: ./checker_linux: No such file or directory
